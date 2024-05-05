@@ -14,23 +14,31 @@
     <title>Frontend Mentor | Meet landing page</title>
   </head>
   <body>
-    <header>
-      <img src="/assets/logo.svg" alt="Meet logo" />
+    <header class="header section-container">
+      <img src="/assets/logo.svg" alt="Meet logo" class="logo" />
     </header>
-
     <main>
       <section class="hero">
-        <h1 class="hero__title">Group Chat for Everyone</h1>
-        <p class="hero__description">
-          Meet makes it easy to connect with others face-to-face virtually and
-          collaborate across any device.
-        </p>
+        <div class="section-container hero--container">
+          <h1 class="hero__title primary-heading heading-margin">
+            Group Chat for Everyone
+          </h1>
+          <p class="hero__description">
+            Meet makes it easy to connect with others face-to-face virtually and
+            collaborate across any device.
+          </p>
 
-        <div class="btn-wrapper">
-          <a href="#" download class="btn">Download v1.3</a>
-          <a href="#" aria-label="Learn more about Meet" class="btn"
-            >What is it?</a
-          >
+          <div class="btn-wrapper">
+            <a href="#" download class="btn btn--turquoise"
+              >Download <span class="turquoise-overlay">v1.3</span></a
+            >
+            <a
+              href="#"
+              aria-label="Learn more about Meet"
+              class="btn btn--purple"
+              >What is it?</a
+            >
+          </div>
         </div>
       </section>
 
@@ -38,27 +46,33 @@
         <span class="number">01</span>
       </div>
 
-      <section class="about">
+      <section class="about section-container">
         <div class="img-grid">
           <img
             src="/assets/desktop/image-woman-in-videocall.jpg"
             alt="Woman on a video call"
+            class="about__img"
           />
           <img
             src="/assets/desktop/image-women-videochatting.jpg"
             alt="Woman on a video call"
+            class="about__img"
           />
           <img
             src="/assets/desktop/image-men-in-meeting.jpg"
             alt="Woman on a video call"
+            class="about__img"
           />
           <img
             src="/assets/desktop/image-man-texting.jpg"
             alt="Woman on a video call"
+            class="about__img"
           />
         </div>
-        <p class="about__tag">Built for modern use</p>
-        <h2 class="about__title">Smarter meetings, all in one place</h2>
+        <p class="about__tag overline">Built for modern use</p>
+        <h2 class="about__title secondary-heading">
+          Smarter meetings, all in one place
+        </h2>
         <p class="about__description">
           Send messages, share files, show your screen, and record your meetings
           — all in one workspace. Control who can join with invite-only team
@@ -71,14 +85,18 @@
       <span class="number">02</span>
     </div>
 
-    <footer>
-      <div class="footer-grid">
-        <h2 class="footer__title">Experience more together</h2>
+    <footer class="footer">
+      <div class="section-container footer-grid">
+        <h2 class="footer__title secondary-heading">
+          Experience more together
+        </h2>
         <p class="footer__description">
           Stay connected with reliable HD meetings and unlimited one-on-one and
           group video sessions.
         </p>
-        <a href="#" download class="btn">Download v1.3</a>
+        <a href="#" download class="btn btn--purple"
+          >Download <span class="purple-overlay">v1.3</span></a
+        >
       </div>
     </footer>
   </body>
