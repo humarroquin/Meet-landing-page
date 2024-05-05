@@ -209,7 +209,7 @@ body {
 
 /* divider */
 .divider {
-  background-color: var(--white);
+  background-color: var(--grayish-blue);
   height: 8.75rem;
   width: 1px;
   margin: 0 auto 4rem;
